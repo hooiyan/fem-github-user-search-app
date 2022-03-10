@@ -10,13 +10,14 @@ module.exports = {
       "sans": ["Space Mono", "sans-serif"],
     },
     extend: {
-      color: {
+      colors: {
         lightModePrimaryBlue: "var(--light-mode-primary-blue)",
-        lightModeGray: "var(--light-mode-gray)",
         lightModeSecondaryBlue: "var(--light-mode-secondary-blue)",
-        lightModeBlack: "var(--light-mode-black)",
+        lightModeDarkGray: "var(--light-mode-dark-gray)",
+        lightModeLightGray: "var(--light-mode-light-gray)",
         lightModeWhite: "var(--light-mode-white)",
         lightModeWhitest: "var(--light-mode-whitest)",
+        lightModeBlack: "var(--light-mode-black)",
         darkModePrimaryBlue: "var(--dark-mode-primary-blue)",
         darkModeWhite: "var(--dark-mode-white)",
         darkModeBlack: "var(--dark-mode-black)",

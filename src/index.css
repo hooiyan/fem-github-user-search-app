@@ -5,11 +5,12 @@
 :root {
   /* Light mode color */
   --light-mode-primary-blue: hsl(212, 100%, 50%);
-  --light-mode-gray: hsl(217, 20%, 51%);
   --light-mode-secondary-blue: hsl(217, 35%, 45%);
-  --light-mode-black: hsl(217, 21%, 21%);
+  --light-mode-dark-gray: hsl(217, 21%, 21%);
+  --light-mode-light-gray: hsl(217, 20%, 51%);
   --light-mode-white: hsl(227, 100%, 98%);
   --light-mode-whitest: hsl(0, 0%, 100%);
+  --light-mode-black: hsl(220, 18%, 16%);
 
   /* Dark mode colors */
   --dark-mode-primary-blue: hsl(212, 100%, 50%);
