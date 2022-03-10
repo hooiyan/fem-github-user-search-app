@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  /* Light mode color */
+  --light-mode-primary-blue: hsl(212, 100%, 50%);
+  --light-mode-gray: hsl(217, 20%, 51%);
+  --light-mode-secondary-blue: hsl(217, 35%, 45%);
+  --light-mode-black: hsl(217, 21%, 21%);
+  --light-mode-white: hsl(227, 100%, 98%);
+  --light-mode-whitest: hsl(0, 0%, 100%);
+
+  /* Dark mode colors */
+  --dark-mode-primary-blue: hsl(212, 100%, 50%);
+  --dark-mode-white: hsl(0, 0%, 100%);
+  --dark-mode-black: hsl(220, 40%, 13%);
+  --dark-mode-dark-blue: hsl(222, 41%, 20%);
+
+  /* Other colors */
+  --red: hsl(0, 91%, 62%);
+  --primary-blue-lighten: hsl(212, 100%, 69%);
+}
