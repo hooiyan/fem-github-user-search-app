@@ -7,18 +7,22 @@ import IconCompany from "../assets/IconCompany.vue";
 
 <template>
   <section
-    class="grid grid-cols-2 grid-rows-2 gap-y-[15px] gap-x-[40px] ml-[154px]"
+    class="grid grid-cols-2 sm:grid-cols-1 grid-rows-2 xs:grid-rows-4 gap-y-[20px] gap-x-[40px] ml-[154px] md:ml-0 md:justify-between"
   >
     <div class="flex items-center">
       <IconLocation />
-      <p class="text-lightModeSecondaryBlue text-[1.5rem] ml-[16px]">
+      <p
+        class="text-lightModeSecondaryBlue text-[1.5rem] xs:text-[1.3rem] ml-[19.12px] md:ml-[19.25px]"
+      >
         San Francisco
       </p>
     </div>
 
     <div class="flex items-center">
       <IconTwitter />
-      <a class="text-lightModeSecondaryBlue text-[1.5rem] ml-[16px]" href="#"
+      <a
+        class="text-lightModeSecondaryBlue text-[1.5rem] xs:text-[1.3rem] ml-[16px] md:ml-[13.01]"
+        href="#"
         >Not Available</a
       >
     </div>
@@ -26,15 +30,19 @@ import IconCompany from "../assets/IconCompany.vue";
     <div class="flex items-center">
       <IconWebsite />
       <a
-        class="text-lightModeSecondaryBlue text-[1.5rem] ml-[16px] text-ellipsis overflow-hidden"
+        class="text-lightModeSecondaryBlue text-[1.5rem] xs:text-[1.3rem] ml-[16.01px] text-ellipsis overflow-hidden"
         href="#"
-        >https://github.blogffffffffffffffff</a
+        >https://github.blog</a
       >
     </div>
 
     <div class="flex items-center">
       <IconCompany />
-      <p class="text-lightModeSecondaryBlue text-[1.5rem] ml-[16px]">@github</p>
+      <p
+        class="text-lightModeSecondaryBlue text-[1.5rem] xs:text-[1.3rem] ml-[16px]"
+      >
+        @github
+      </p>
     </div>
   </section>
 </template>

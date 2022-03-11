@@ -4,7 +4,7 @@ import IconSearch from "../assets/IconSearch.vue";
 
 <template>
   <form
-    class="drop-shadow=[hsla(227, 46%, 51%, 0.2)] flex items-center relative mt-[36px] mb-[24px] bg-lightModeWhitest rounded-[15px]"
+    class="shadow-[0px_16px_30px_-10px_rgba(70,96,187,0.198567)] flex items-center relative mt-[36px] mb-[24px] bg-lightModeWhitest rounded-[15px]"
   >
     <IconSearch />
     <input
@@ -12,12 +12,12 @@ import IconSearch from "../assets/IconSearch.vue";
       name="username"
       id="username"
       placeholder="Search GitHub username..."
-      class="py-[22px] pl-[80px] w-full rounded-2xl focus:outline-none placeholder:text-lightModeSecondaryBlue text-lightModeBlack caret-lightModePrimaryBlue text-[18px]"
+      class="py-[22px] pl-[80px] w-full rounded-2xl focus:outline-none placeholder:text-lightModeSecondaryBlue text-lightModeBlack caret-lightModePrimaryBlue text-[1.8rem] xs:text-[1.3rem]"
     />
     <input
       type="submit"
       value="Search"
-      class="text-lightModeWhitest bg-lightModePrimaryBlue font-bold py-[12px] px-[24px] rounded-[10px] absolute right-0 translate-x-[-10px] cursor-pointer hover:bg-myPrimaryBlueLighten"
+      class="text-lightModeWhitest bg-lightModePrimaryBlue font-bold py-[12px] px-[24px] rounded-[10px] absolute right-0 translate-x-[-10px] cursor-pointer hover:bg-myPrimaryBlueLighten xs:text-[1.4rem]"
     />
   </form>
 </template>

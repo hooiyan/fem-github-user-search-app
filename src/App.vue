@@ -5,7 +5,9 @@ import ProfileCard from "./components/ProfileCard.vue";
 </script>
 
 <template>
-  <div class="flex flex-col justify-center mt-36">
+  <div
+    class="flex flex-col justify-center my-[144px] md:mt-[140px] md:mx-[98px] sm:mx-[40px] xs:mx-[24px]"
+  >
     <TopHeader />
     <SearchBar />
     <ProfileCard />
