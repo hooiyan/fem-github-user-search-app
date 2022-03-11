@@ -4,7 +4,7 @@ import IconSearch from "../assets/IconSearch.vue";
 
 <template>
   <form
-    class="drop-shadow=[hsla(227, 46%, 51%, 0.2)] flex items-center relative mt-[36px] mb-[24px]"
+    class="drop-shadow=[hsla(227, 46%, 51%, 0.2)] flex items-center relative mt-[36px] mb-[24px] bg-lightModeWhitest rounded-[15px]"
   >
     <IconSearch />
     <input
