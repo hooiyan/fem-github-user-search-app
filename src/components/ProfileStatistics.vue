@@ -1,6 +1,6 @@
 <template>
   <section
-    class="flex justify-between px-[32px] py-[15px] ml-[154px] bg-lightModeWhite rounded-[10px]"
+    class="flex justify-between px-[32px] py-[15px] ml-[154px] bg-lightModeWhite rounded-[10px] mb-[32px]"
   >
     <div class="flex flex-col">
       <p class="text-[13px] text-lightModeSecondaryBlue">Repos</p>
